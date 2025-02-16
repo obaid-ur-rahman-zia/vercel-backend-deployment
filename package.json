@@ -15,6 +15,7 @@
     "@distube/ytdl-core": "^4.16.4",
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "yt-dlp-wrap": "^2.3.12"
   }
 }

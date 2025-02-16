@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', (req, res)=>{
     res.json({
-        success: "This is root directory!"
+        success: "This is root directory for KOMA!"
     })
 })
 

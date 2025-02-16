@@ -2,6 +2,10 @@ import express from 'express'
 const app = express()
 
 
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 app.get('/', (req, res)=>{
     res.json({
         success: "This is root directory for KOMA!"
@@ -9,7 +13,8 @@ app.get('/', (req, res)=>{
 })
 
 app.post('/demo', (req, res) => {
-    const data = req.boby.data;
+    
+    const data = req.body.bodyData;
     
     
     res.json({

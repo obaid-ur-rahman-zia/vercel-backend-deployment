@@ -7,6 +7,9 @@
     "start": "node ./index.mjs",
     "dev": "nodemon ./index.mjs"
   },
+  "files": [
+    "binaries/"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",

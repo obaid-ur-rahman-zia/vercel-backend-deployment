@@ -8,6 +8,17 @@ app.get('/', (req, res)=>{
     })
 })
 
+app.post('/demo', (req, res) => {
+    const data = req.boby.data;
+    
+    
+    res.json({
+        success: "This is the "+ data + "!"
+    })
+
+})
+
+
 
 app.listen(3000, () => {
     console.log("Server listening at: http://localhost:3000");

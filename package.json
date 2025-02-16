@@ -8,7 +8,7 @@
     "dev": "nodemon ./index.mjs"
   },
   "files": [
-    "binaries/"
+    "binaries/yt-dlp.exe"
   ],
   "keywords": [],
   "author": "",
